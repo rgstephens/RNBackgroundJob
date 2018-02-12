@@ -1,5 +1,16 @@
 This is a React Native example app that uses [react-native-background-job](https://github.com/vikeri/react-native-background-job) to write a timestamp every 10 seconds to a Redux store.
 
+## Interval Method
+
+- [x] Uses [react-native-background-job](https://github.com/vikeri/react-native-background-job)
+- [ ] Simple setInterval
+- [x] option to start Foreground Service
+
+## Action Performed at Each 10 Second Interval
+
+- [x] Writes timestamp to Redux store
+- [ ] Calls bluetoothScan from [react-native-ble-plx](https://github.com/Polidea/react-native-ble-plx) for devices
+
 The `react-native init` [command](https://facebook.github.io/react-native/docs/getting-started.html) was used to create the initial project and the [react-native-create-library](https://github.com/frostney/react-native-create-library) tool was used as a start for the foreground service.
 
 As of this writing, there are multiple approaches to get the timer to continue when the app runs in the background on Android:
