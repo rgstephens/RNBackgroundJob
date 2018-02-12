@@ -1,6 +1,6 @@
 *.pbxproj -text
 android/* linguist-vendored
-android/app/src/main/java/* linguist-vendored=false
+android/app/src/main/java/com/* linguist-vendored=false
 node_modules/* linguist-vendored
 ios/* linguist-vendored
 .history/* linguist-vendored
