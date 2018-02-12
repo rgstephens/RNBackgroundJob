@@ -1,5 +1,5 @@
 *.pbxproj -text
-android/app/build/* linguist-vendored
+android/app/* linguist-vendored
 node_modules/* linguist-vendored
 ios/* linguist-vendored
 .history/* linguist-vendored
